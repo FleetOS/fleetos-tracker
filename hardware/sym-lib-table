@@ -5,4 +5,5 @@
   (lib (name "LTC4162IUFD-FFSM_PBF")(type "KiCad")(uri "${KIPRJMOD}/symbols/LTC4162IUFD-FFSM_PBF.kicad_sym")(options "")(descr ""))
   (lib (name "0786463001")(type "KiCad")(uri "${KIPRJMOD}/symbols/0786463001.kicad_sym")(options "")(descr ""))
   (lib (name "NEO-M9N")(type "KiCad")(uri "${KIPRJMOD}/symbols/NEO-M9N.kicad_sym")(options "")(descr ""))
+  (lib (name "FDMC8327L")(type "KiCad")(uri "${KIPRJMOD}/symbols/FDMC8327L.kicad_sym")(options "")(descr ""))
 )

@@ -407,6 +407,15 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "34886a96-89cd-4fc5-ba47-006a1318e849",
+      "Root"
+    ],
+    [
+      "5de0682e-34c7-4d01-807a-cc925ae0b1fb",
+      "Battery Charger"
+    ]
+  ],
   "text_variables": {}
 }

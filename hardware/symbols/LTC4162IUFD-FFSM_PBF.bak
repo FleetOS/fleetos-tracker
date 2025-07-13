@@ -197,24 +197,6 @@
 					)
 				)
 			)
-			(pin input line
-				(at 20.32 6.35 180)
-				(length 2.54)
-				(name "BOOST"
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-					)
-				)
-			)
 		)
 		(embedded_fonts no)
 	)
