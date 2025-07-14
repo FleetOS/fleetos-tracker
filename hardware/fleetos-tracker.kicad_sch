@@ -1763,6 +1763,18 @@
 		)
 		(uuid b664bd81-e89e-48bd-a7af-8a47ea33aba4)
 	)
+	(rectangle
+		(start 86.36 16.51)
+		(end 127 35.56)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bb4d7fb9-43b0-41e6-a954-8b45071946a8)
+	)
 	(text "Battery Charger Circuit"
 		(exclude_from_sim no)
 		(at 26.162 14.986 0)
@@ -1772,6 +1784,26 @@
 			)
 		)
 		(uuid "88ff1456-91c7-4d87-8248-925fd1d13535")
+	)
+	(text "GNSS Receiver"
+		(exclude_from_sim no)
+		(at 92.964 14.986 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "abc78dbd-18c6-495d-b9d2-8d47d3c96237")
+	)
+	(wire
+		(pts
+			(xy 114.3 24.13) (xy 125.73 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30c38cb2-ea2c-45cf-8134-d8eb785258a5")
 	)
 	(wire
 		(pts
@@ -1823,6 +1855,16 @@
 		)
 		(uuid "900e0a39-dea3-4161-9f90-6e628fc91cf2")
 	)
+	(wire
+		(pts
+			(xy 114.3 27.94) (xy 125.73 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95a8edef-58f9-4c72-b6ee-4aa3edd94ad4")
+	)
 	(label "VOUT"
 		(at 76.2 24.13 0)
 		(effects
@@ -1843,6 +1885,16 @@
 		)
 		(uuid "1946cc3f-db9f-4c51-a651-2aa7977b1d2d")
 	)
+	(label "GNSS_RXD"
+		(at 125.73 24.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5b164c64-4dfe-4b3f-96af-2e02d717c648")
+	)
 	(label "DVCC"
 		(at 16.51 24.13 0)
 		(effects
@@ -1852,6 +1904,16 @@
 			(justify left bottom)
 		)
 		(uuid "76f24687-8be2-4246-905c-3db482178463")
+	)
+	(label "GNSS_TXD"
+		(at 125.73 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "adcfbae9-1b1a-45f7-bf1f-6d37e23237e0")
 	)
 	(label "SCL"
 		(at 16.51 27.94 0)
@@ -2126,6 +2188,68 @@
 				(path "/34886a96-89cd-4fc5-ba47-006a1318e849"
 					(reference "U1")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 20.32)
+		(size 26.67 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "12b9aa31-f253-4d27-91dd-ffc7b984f697")
+		(property "Sheetname" "GNSS"
+			(at 87.63 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gnss.kicad_sch"
+			(at 87.63 32.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RXD" input
+			(at 114.3 24.13 0)
+			(uuid "655101ed-9947-4a85-b040-789353ebbf49")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TXD" input
+			(at 114.3 27.94 0)
+			(uuid "11d422c9-bf16-4f8b-84f2-79cc9b8fa4c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "fleetos-tracker"
+				(path "/34886a96-89cd-4fc5-ba47-006a1318e849"
+					(page "3")
 				)
 			)
 		)
