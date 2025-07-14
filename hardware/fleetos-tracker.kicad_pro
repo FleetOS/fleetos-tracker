@@ -620,6 +620,10 @@
     [
       "12b9aa31-f253-4d27-91dd-ffc7b984f697",
       "GNSS"
+    ],
+    [
+      "efb4cfd9-4abf-484f-b828-d075dddb773a",
+      "Cellular Modem"
     ]
   ],
   "text_variables": {}

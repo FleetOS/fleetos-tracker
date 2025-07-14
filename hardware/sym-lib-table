@@ -7,4 +7,6 @@
   (lib (name "NEO-M9N")(type "KiCad")(uri "${KIPRJMOD}/symbols/NEO-M9N.kicad_sym")(options "")(descr ""))
   (lib (name "FDMC8327L")(type "KiCad")(uri "${KIPRJMOD}/symbols/FDMC8327L.kicad_sym")(options "")(descr ""))
   (lib (name "RF2-04A-T-00-50-G")(type "KiCad")(uri "${KIPRJMOD}/symbols/RF2-04A-T-00-50-G.kicad_sym")(options "")(descr ""))
+  (lib (name "BC65PB-04-STD")(type "KiCad")(uri "${KIPRJMOD}/symbols/BC65PB-04-STD.kicad_sym")(options "")(descr ""))
+  (lib (name "TLV431AIDBVR")(type "KiCad")(uri "${KIPRJMOD}/symbols/TLV431AIDBVR.kicad_sym")(options "")(descr ""))
 )
