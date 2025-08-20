@@ -2757,6 +2757,12 @@
 		(uuid "e1b6ff8f-c69f-4fa0-bf5c-65a1b07b19bb")
 	)
 	(junction
+		(at 198.12 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d695732-cc1d-4a40-8239-72a273f4d039")
+	)
+	(junction
 		(at 138.43 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2767,6 +2773,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22afc2ff-5394-4c18-a3cc-71fd8cbd8d02")
+	)
+	(junction
+		(at 186.69 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26316bf9-f66f-46a9-b255-6417a047c102")
 	)
 	(junction
 		(at 219.71 48.26)
@@ -2785,6 +2797,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2fb49ad2-9c2a-40cb-be93-a9005228ff7f")
+	)
+	(junction
+		(at 186.69 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3191b791-9a14-4adc-99a5-51fea49ec46c")
+	)
+	(junction
+		(at 186.69 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3867fa0c-7d5c-4f69-8d62-a2c961436a43")
+	)
+	(junction
+		(at 214.63 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ae75438-2287-4756-ada2-1ea02d83ba5f")
 	)
 	(junction
 		(at 152.4 105.41)
@@ -2847,12 +2877,6 @@
 		(uuid "84916cac-4719-42a7-b478-c6a09ab04152")
 	)
 	(junction
-		(at 186.69 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "894002a7-dd22-4c86-aa70-a3cd0ac895eb")
-	)
-	(junction
 		(at 19.05 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2883,28 +2907,10 @@
 		(uuid "dc52c5fb-8fd4-4a0b-b05b-14dad27d8027")
 	)
 	(junction
-		(at 186.69 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f940bfed-ecba-4eda-a704-8e3a263cf590")
-	)
-	(junction
 		(at 66.04 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb34237a-3403-4afe-9120-156dcb70a42d")
-	)
-	(junction
-		(at 186.69 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fc59c55c-dd75-4c31-83bf-6b1c11047239")
-	)
-	(junction
-		(at 214.63 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fddd74cb-1cba-421b-bc0e-85bceb44a088")
 	)
 	(wire
 		(pts
@@ -2945,6 +2951,16 @@
 			(type default)
 		)
 		(uuid "04e31cfa-0799-4025-b8bc-6c04bad68183")
+	)
+	(wire
+		(pts
+			(xy 186.69 48.26) (xy 198.12 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04f9b5e8-63dc-42f6-a0bc-31f2dd2ff95e")
 	)
 	(wire
 		(pts
@@ -3118,16 +3134,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 105.41) (xy 186.69 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34cc8e48-48eb-429c-a9b1-de5defc61da0")
-	)
-	(wire
-		(pts
 			(xy 172.72 105.41) (xy 186.69 105.41)
 		)
 		(stroke
@@ -3145,6 +3151,16 @@
 			(type default)
 		)
 		(uuid "351fa116-afcc-4cb3-832b-5eefcffc5094")
+	)
+	(wire
+		(pts
+			(xy 186.69 105.41) (xy 209.55 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35a395df-a141-425d-8953-3ce4c10e97be")
 	)
 	(wire
 		(pts
@@ -3298,6 +3314,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 48.26) (xy 214.63 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6150c7b2-cf3d-4617-b97b-71a588b279a1")
+	)
+	(wire
+		(pts
 			(xy 92.71 63.5) (xy 66.04 63.5)
 		)
 		(stroke
@@ -3338,16 +3364,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 73.66) (xy 186.69 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76f6578d-f0aa-4ada-8df6-78823c4b9c99")
-	)
-	(wire
-		(pts
 			(xy 133.35 93.98) (xy 143.51 93.98)
 		)
 		(stroke
@@ -3365,16 +3381,6 @@
 			(type default)
 		)
 		(uuid "77e14413-fb50-4835-add7-8026119a7858")
-	)
-	(wire
-		(pts
-			(xy 186.69 48.26) (xy 195.58 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a91324b-ef31-41be-b302-a18b9d4a9866")
 	)
 	(wire
 		(pts
@@ -3638,13 +3644,13 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 38.1) (xy 198.12 43.18)
+			(xy 186.69 73.66) (xy 186.69 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ccffede1-2b4c-41f1-848d-8b478e3d3c22")
+		(uuid "ca555899-d575-4326-9894-8365c242d820")
 	)
 	(wire
 		(pts
@@ -3718,7 +3724,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 55.88) (xy 140.97 55.88)
+			(xy 133.35 55.88) (xy 193.04 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3778,16 +3784,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 48.26) (xy 214.63 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f706bbac-2b25-45c4-9bcc-a928a0c9e79b")
-	)
-	(wire
-		(pts
 			(xy 133.35 40.64) (xy 143.51 40.64)
 		)
 		(stroke
@@ -3815,6 +3811,16 @@
 			(type default)
 		)
 		(uuid "fa9b2790-9b80-42a2-bd91-5850af11ed90")
+	)
+	(wire
+		(pts
+			(xy 186.69 58.42) (xy 198.12 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbae90ca-4bab-40f3-a018-182a74938c30")
 	)
 	(label "INFET"
 		(at 81.28 55.88 0)
@@ -3866,16 +3872,6 @@
 		)
 		(uuid "3c7045f8-1322-4081-a8b9-5b66865fc777")
 	)
-	(label "BATFET"
-		(at 198.12 38.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "66a5070c-c0a0-4667-974f-2c49190bd484")
-	)
 	(label "CELLS1"
 		(at 167.64 109.22 270)
 		(effects
@@ -3915,16 +3911,6 @@
 			(justify left bottom)
 		)
 		(uuid "a30ee635-12db-437e-930f-56cdb13d3cce")
-	)
-	(label "BATFET"
-		(at 140.97 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f395bfde-52e8-4ea5-83c1-af601c4141b7")
 	)
 	(label "INTVCC"
 		(at 143.51 43.18 180)
@@ -4132,32 +4118,33 @@
 	)
 	(symbol
 		(lib_id "FDMC8327L:FDMC8327L")
-		(at 200.66 45.72 270)
+		(at 195.58 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "11d7fdf3-aecb-426a-9ca7-2ee436364e49")
 		(property "Reference" "Q2"
-			(at 200.66 52.07 90)
+			(at 201.93 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "FDMC8327L"
-			(at 200.66 54.61 90)
+			(at 201.93 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "FDMC8327L:TRANS_FDMC8327L"
-			(at 200.66 45.72 0)
+			(at 195.58 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4167,7 +4154,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 45.72 0)
+			(at 195.58 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4176,7 +4163,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 200.66 45.72 0)
+			(at 195.58 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4185,7 +4172,7 @@
 			)
 		)
 		(property "MF" "Fairchild Semiconductor"
-			(at 200.66 45.72 0)
+			(at 195.58 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4195,7 +4182,7 @@
 			)
 		)
 		(property "DESCRIPTION" "MOSFET Transistor, N Channel, 14 A, 40 V, 0.0074 ohm, 10 V, 1.7 V"
-			(at 200.66 45.72 0)
+			(at 195.58 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4205,7 +4192,7 @@
 			)
 		)
 		(property "PACKAGE" "PowerWDFN-8 ON Semiconductor"
-			(at 200.66 45.72 0)
+			(at 195.58 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4215,7 +4202,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 200.66 45.72 0)
+			(at 195.58 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4225,7 +4212,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 200.66 45.72 0)
+			(at 195.58 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4235,7 +4222,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/FDMC8327L/Fairchild+Imaging/view-part/?ref=eda"
-			(at 200.66 45.72 0)
+			(at 195.58 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4245,7 +4232,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendation"
-			(at 200.66 45.72 0)
+			(at 195.58 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4255,7 +4242,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/FDMC8327L/Fairchild+Imaging/view-part/?ref=snap"
-			(at 200.66 45.72 0)
+			(at 195.58 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4265,7 +4252,7 @@
 			)
 		)
 		(property "MP" "FDMC8327L"
-			(at 200.66 45.72 0)
+			(at 195.58 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4275,7 +4262,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 200.66 45.72 0)
+			(at 195.58 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4285,7 +4272,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 200.66 45.72 0)
+			(at 195.58 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4295,7 +4282,7 @@
 			)
 		)
 		(property "AVAILABILITY" "Unavailable"
-			(at 200.66 45.72 0)
+			(at 195.58 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4305,7 +4292,7 @@
 			)
 		)
 		(property "Description_1" "N-Channel 40 V 12A (Ta), 14A (Tc) 2.3W (Ta), 30W (Tc) Surface Mount 8-MLP (3.3x3.3)"
-			(at 200.66 45.72 0)
+			(at 195.58 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4490,7 +4477,7 @@
 	)
 	(symbol
 		(lib_id "BK-18650-PC2:BK-18650-PC2")
-		(at 186.69 97.79 90)
+		(at 186.69 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4499,21 +4486,21 @@
 		(fields_autoplaced yes)
 		(uuid "23e1cd46-afaf-415b-b458-1e0d1c9cf37f")
 		(property "Reference" "BT1"
-			(at 190.5 97.1549 90)
+			(at 190.5 95.8849 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "BK-18650-PC2"
-			(at 190.5 99.6949 90)
+			(at 190.5 98.4249 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "BK-18650-PC2:BAT_BK-18650-PC2"
@@ -5719,10 +5706,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b80b02f1-c751-4f75-a752-135bdccd9215")
 		(property "Reference" "L1"
-			(at 157.48 55.88 90)
+			(at 161.29 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6057,7 +6043,7 @@
 		(dnp no)
 		(uuid "d5633143-22b6-4602-ae15-e1c91a2ad045")
 		(property "Reference" "C11"
-			(at 148.082 56.642 90)
+			(at 148.082 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6201,7 +6187,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Thermistor_NTC"
+		(property "Value" "10k"
 			(at 154.94 86.6774 0)
 			(effects
 				(font
