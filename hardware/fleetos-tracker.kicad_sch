@@ -3620,6 +3620,16 @@
 		)
 		(uuid "7a2e890d-214e-4d19-a6f6-e8a4e9e86b8c")
 	)
+	(text "Ensure the USB input source \ncan handle ~2A of current."
+		(exclude_from_sim no)
+		(at 260.096 55.372 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "853c0943-8df3-455d-b9d5-359dfd6a5812")
+	)
 	(text "GNSS Receiver"
 		(exclude_from_sim no)
 		(at 20.574 59.436 0)
